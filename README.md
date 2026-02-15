@@ -1,19 +1,25 @@
-
 # Log Analysis Lab
 
-## Objective
-Basic log analysis to identify suspicious login attempts.
+## Objetivo
+Demonstrar a análise básica de logs de autenticação para identificar atividades suspeitas.
 
-## Scenario
-Reviewing authentication logs to detect potential security threats.
+## Cenário
+Um analista de segurança revisa registros de login para detectar possíveis tentativas
+de acesso não autorizado.
 
-## Findings
-Multiple failed login attempts were detected for the user "admin" from the same external IP address, indicating a possible brute-force attack.
+## Método de Análise
+Os registros de autenticação foram analisados para identificar padrões de tentativas
+de login com falha, observando repetição de usuários, endereços IP e intervalos de tempo.
 
-## Security Concepts
-- Log monitoring
-- Threat detection
-- CIA Triad
+## Resultados
+Foram identificadas múltiplas tentativas de login com falha para o usuário "admin",
+originadas do mesmo endereço IP externo, indicando uma possível tentativa de força bruta.
 
-## Conclusion
-Monitoring logs helps identify unauthorized access attempts early.
+## Validação de Negócio
+De acordo com boas práticas de segurança da informação, múltiplas falhas consecutivas
+de autenticação devem gerar alertas de segurança para prevenir acessos não autorizados
+e proteger a integridade dos sistemas.
+
+## Conclusão
+A análise de logs é essencial para a detecção precoce de ameaças e para a proteção
+dos ativos digitais da organização.
